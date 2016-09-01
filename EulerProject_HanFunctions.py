@@ -114,3 +114,5 @@ def fibo(N):
             fibo3 = fibo1 + fibo2
         return fibo3
 
+def test():
+    print "test"
