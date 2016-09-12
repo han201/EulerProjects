@@ -14,11 +14,6 @@ while (nth < NthPrime):
         # if (nth==NthPrime):
         print nth, "th prime number is ", naturalnumber
     naturalnumber =naturalnumber+1
-    if naturalnumber%2==0:                           # reduces the calculation by 20 sec. WIthout this, the run time is 70 sec.
-        naturalnumber = naturalnumber+1
-    elif (naturalnumber%3==0 and naturalnumber >3):   # adding additional filter did not reduce the runtime. Still took 50 sec.
-        naturalnumber = naturalnumber + 1
-
 
 
 

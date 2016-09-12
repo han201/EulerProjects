@@ -10,11 +10,33 @@ def largestprime(N):
     return factor
 
 # Returns true if N is a prime number
-def isprime(N):
+def isprime2(N):
     if largestprime(N)==N:
         return 1
     else:
         return 0
+
+        # returns true if N is a prime number: 2, 3, 5, 7, 11, 13, 17, etc
+
+
+def isprime(N):
+    primen = 0
+    if N == 1:  # by definition
+        primen = 0
+    elif N == 2 or N == 3 or N == 5 or N == 7:  # initial for prime numbers
+        primen = 1
+    else:
+        maxim = int(N ** 0.5)
+        primen = 0
+        j = 3
+        while (N % 2 > 0 and N % 3 > 0 and j <= maxim):  # detect a prime. The default is Not a prime
+            if N % j == 0:
+                primen = 0
+                break
+            else:
+                j = j + 2
+                primen = 1
+    return primen
 
 # Calculates the number of divisors for an integer using a brute force method
 def numDiv_bruteforce(N):
@@ -113,6 +135,3 @@ def fibo(N):
             fibo2=fibo3
             fibo3 = fibo1 + fibo2
         return fibo3
-
-def test():
-    print "test"
