@@ -51,3 +51,6 @@ Temporary Items
 
 # compiled Python code related to importing one file from another
 .pyc
+
+# ignore this one as well
+.idea/workspace.xml
