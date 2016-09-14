@@ -9,7 +9,7 @@ digit = 1
 while (digit*maxdigit > 10**digit):
     digit=digit+1
 #print digit
-maxim = 7**5*digit     # maximum possible number
+maxim = 9**5*digit     # maximum possible number
 summ =0
 print maxim
 for candidate in range(2, maxim):

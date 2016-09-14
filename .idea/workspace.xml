@@ -21,21 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EulerProject30_sumOf5powers.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EulerProject30_sumOf5powers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EulerProject30_sumOf5powers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EulerProject28_spiral.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EulerProject28_spiral.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -112,8 +102,8 @@
         <option value="$PROJECT_DIR$/EulerProject26_belowDecimal.py" />
         <option value="$PROJECT_DIR$/EulerProject27_quadraticPrime.py" />
         <option value="$PROJECT_DIR$/EulerProject29_distinctPowers.py" />
-        <option value="$PROJECT_DIR$/EulerProject30_sumOf5powers.py" />
         <option value="$PROJECT_DIR$/EulerProject28_spiral.py" />
+        <option value="$PROJECT_DIR$/EulerProject30_sumOf5powers.py" />
       </list>
     </option>
   </component>
@@ -159,7 +149,7 @@
       <recent name="C:\Users\hahna\PycharmProjects\EulerProjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.EulerProject28_spiral">
+  <component name="RunManager" selected="Python.EulerProject30_sumOf5powers">
     <configuration default="false" name="EulerProject26_belowDecimal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,8 +378,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.EulerProject28_spiral" />
-        <item index="1" class="java.lang.String" itemvalue="Python.EulerProject30_sumOf5powers" />
+        <item index="0" class="java.lang.String" itemvalue="Python.EulerProject30_sumOf5powers" />
+        <item index="1" class="java.lang.String" itemvalue="Python.EulerProject28_spiral" />
         <item index="2" class="java.lang.String" itemvalue="Python.EulerProject29_distinctPowers" />
         <item index="3" class="java.lang.String" itemvalue="Python.EulerProject27_quadraticPrime" />
         <item index="4" class="java.lang.String" itemvalue="Python.EulerProject26_belowDecimal" />
@@ -414,7 +404,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13020833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -730,18 +720,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EulerProject30_sumOf5powers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EulerProject28_spiral.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EulerProject30_sumOf5powers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding />
         </state>
       </provider>
