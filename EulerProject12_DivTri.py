@@ -13,6 +13,7 @@
 '''
 
 from EulerProject_HanFunctions import numDiv
+from EulerProject_HanFunctions import numDiv2
 
 element=1
 numberOfDiv=1
@@ -21,6 +22,7 @@ while (numberOfDiv < 500):
     element +=1
     sumElement = sumElement + element
     numberOfDiv=numDiv(sumElement)
-print element, sumElement, numberOfDiv
+print "1+2+3+... all the way to ", element, "is", sumElement, "which has", numberOfDiv, "divisors."
 
+# For Python, numDiv1 vs numDiv2 makes a very big difference...
 

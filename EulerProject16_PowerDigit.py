@@ -13,5 +13,6 @@ for i in range(1, 20):
     print i, x, sum(x)
 # looks random, so let's go for the answer straight
 '''
-y = digits(2 ** 1000, 10)
-print 1000, sum(y)
+x = 2 ** 1000;
+y = digits(x, 10)
+print 1000,x, sum(y)

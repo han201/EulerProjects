@@ -3,16 +3,7 @@ Longest Collatz sequence: Which starting number, under one million, produces the
 https://projecteuler.net/problem=14
 '''
 
-#First define collatz funtion, that calculates the chain
-def collatz(coll):
-    chain=1
-    while coll > 1:
-        if coll%2 ==0:
-            coll=coll/2
-        else:
-            coll=3*coll + 1
-        chain +=1
-    return chain
+from EulerProject_HanFunctions import collatz
 
 maxlen=1     #Number of chains
 maxcoll=1    #the collatz number that generates the maximum chain

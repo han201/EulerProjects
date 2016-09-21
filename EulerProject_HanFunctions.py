@@ -47,7 +47,7 @@ def numDiv_bruteforce(N):
     return numberDiv
 
 # Calculates the number of divisors for an integer, with 50% less calculation than the brute-force method
-def numDiv(N):
+def numDiv2(N):
     numberDiv=2               # The mininum possible number of factors is 2: 1 and N
     for factor in range(2, N, 1):
         if (N%factor ==0):
@@ -58,6 +58,21 @@ def numDiv(N):
             else:
                 break         # break out of the for loop
     return numberDiv
+
+def numDiv(N):
+    numberDiv=2               # The mininum possible number of factors is 2: 1 and N
+    M = int(N**0.5)+1
+    for factor in range(2, M, 1):
+        if (N%factor ==0):
+            if (factor**2 <N):
+                numberDiv +=2
+            elif (factor**2 == N):
+                numberDiv +=1
+            else:
+                break         # break out of the for loop
+    return numberDiv
+
+
 
 # Calculates the sum of all divisors
 def sumDiv(N):
@@ -135,3 +150,14 @@ def fibo(N):
             fibo2=fibo3
             fibo3 = fibo1 + fibo2
         return fibo3
+
+#First define collatz funtion, that calculates the chain
+def collatz(coll):
+    chain=1
+    while coll > 1:
+        if coll%2 ==0:
+            coll=coll/2
+        else:
+            coll=3*coll + 1
+        chain +=1
+    return chain
